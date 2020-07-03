@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FlavorCorner - Registration</title>
+	<link rel="icon" type="image/webp" href="flavourcorner.webp">
+	<meta charset="utf-8">
+	<meta name="author" content="Kapil Singh">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Galada&family=Notable&display=swap" rel="stylesheet">
+</head>
+
+<style type="text/css">
+	p{
+		font-size: 1.3rem;
+		color: springgreen;
+	}
+
+	h2{
+		font-size: 2rem;
+		text-align: center;
+	}
+</style>
+
+<body style="background-color: skyblue">
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+		<div class="container-fluid">
+			<a href="fc.html" class="navbar-brand" style="font-family: 'Notable', sans-serif;"><img src="flavourcorner.png" style="width: 12% ; height: 10%;" class="rounded-circle img-fluid"> FlavourCorner</a>
+		</div>
+	</nav>
+
+<div class="container-fluid">
+	<br>
+   <p style="font-size: 200% ; text-align: center;color: rgb(255,0,255);font-family: 'Notable', sans-serif;font-size: 2.5rem"><u>FlavourCorner</u></p>
+</div>
+
+<form method="post" action="connect.php">
+	<div class="container-fluid">
+	<h2 style="padding: 15px 20px ; font-family: 'Galada', cursive;"><u style="text-decoration: underline;">User Registration-cum-Suggestion Form</u></h2>
+		<div class="form-horizontal " class="form-group" style="padding-top: 15px ; padding-left: 20px;">
+			<label><abbr title="Required" style="text-decoration: none;border: none;">Full Name*</abbr></label>
+			<input type="text" name="fname" class="form-control" placeholder="Enter full name here">
+			<br>
+			<label><abbr title="Required" style="text-decoration: none;border: none;">Email Address*&nbsp&nbsp</abbr></label>
+			<input type="text" name="email" class="form-control" placeholder="Enter valid E-Mail ID">
+			<br>
+			<label><abbr title="Must be between 8-16 characters long" style="text-decoration: none;border: none;">Password*&nbsp&nbsp</abbr></label>
+			<input type="password" name="pass" class="form-control" placeholder="Enter a secure password">
+		</div>
+		<div class="form-group" style="padding-top: 15px ; padding-left: 20px;">
+			<label for="query"><abbr title="Optional" style="text-decoration: none;border: none;">Suggestions</label>
+			<textarea class="form-control" rows="5" id="query" placeholder="Please give your remrks (in 20 words or less)" name="remark" type="text" ></textarea>
+		</div>
+		<br>
+		<button type="submit" class="btn btn-default" style=" margin-left: 20px">Submit</button>
+	</div>
+</form>
+<br>
+</body>
+</html>
